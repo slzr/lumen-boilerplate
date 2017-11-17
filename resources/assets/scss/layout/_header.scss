@@ -3,7 +3,8 @@ $navbar-height: 6rem;
 .navbar {
   .navbar-header {
     .navbar-brand {
-      img { }
+      padding: .4rem 1.6rem;
+      img { max-height: 100%; }
       }
     }
     .navbar-toggle {
