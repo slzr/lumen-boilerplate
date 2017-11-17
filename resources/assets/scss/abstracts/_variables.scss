@@ -1,0 +1,55 @@
+
+//  FONTS
+$primary-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+
+//  COLORS
+$primary:       #F44336;
+$primary-light: #FFCDD2;
+$primary-dark:  #D32F2F;
+$accent:        #009688;
+$dark:          #333;
+$light:         #F0f0f0;
+$secundary:     #757575;
+$divider:       #BDBDBD;
+
+$amber: #FFC107;
+$blue:  #448AFF;
+$red:   #F44336; 
+
+$colors: (
+  'primary':       $primary,            
+  'primary-light': $primary-light,
+  'primary-dark':  $primary-dark,  
+  'accent':        $accent,              
+  'dark':          $dark,                  
+  'light':         $light,                
+  'secundary':     $secundary,        
+  'divider':       $divider,            
+
+  'amber': $amber,
+  'blue': $blue,
+  'red': $red
+);
+
+//  BREAKPOINTS
+$breakpoints: (
+  'small':  320px,
+  'medium': 768px,
+  'large':  1024px,
+) !default;
+
+// SIZES
+$pm-sizes: (
+  xs:   .4rem,
+  sm:   .8rem,
+  md:   1.6rem,
+  lg:   3.2rem,
+  xl:   4.8rem,
+  xxl:  6.4rem,
+  xxxl: 8rem,
+  vl:   11.2rem
+);
+
+$coords: (
+  top, bottom, left, right
+);
